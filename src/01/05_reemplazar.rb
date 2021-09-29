@@ -7,7 +7,6 @@
 # Finalmente, podés consultar el porcentaje de código cubierto por los tests al
 # abrir con tu navegador web el archivo `coverage/index.html`.
 
-
-def reemplazar(miStr)
-    miStr.gsub("{","do\n").gsub("}","\nend")
-end 
+def reemplazar(mi_str)
+  mi_str.gsub("{", "do\n").gsub("}", "\nend")
+end
